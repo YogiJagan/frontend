@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -9,14 +10,14 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex items-center space-x-8">
-          <a href="/" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Home</a>
-          <a href="/aboutus" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">About Us</a>
-          <a href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Teams</a>
-          <a href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">The Bulletin</a>
-          <a href="/joinus" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Join Us</a>
-          <a href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Contact</a>
-          <a href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Donate</a>
-          <a href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">FAQs</a>
+          <Link href="/" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Home</Link>
+          <Link href="/aboutus" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">About Us</Link>
+          <Link href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Teams</Link>
+          <Link href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">The Bulletin</Link>
+          <Link href="/joinus" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Join Us</Link>
+          <Link href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Contact</Link>
+          <Link href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">Donate</Link>
+          <Link href="#" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">FAQs</Link>
         </div>
       </nav>
     </header>
