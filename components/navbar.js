@@ -19,6 +19,6 @@ export default function Navbar() {
           <Link href="/faq" className="text-white font-semibold hover:text-green-200 transition-colors duration-200">FAQs</Link>
         </div>
       </nav>
-    </header>
+    </header> 
   );
 }
